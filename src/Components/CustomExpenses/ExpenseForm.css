@@ -1,0 +1,42 @@
+.expense-form {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ margin-bottom: 15px;
+ text-align: left;
+}
+                    
+.expense-form-control label {
+ margin-bottom: 10px;
+ display: block;
+}
+                    
+.expense-form-control input {
+ font: inherit;
+ padding: 8px;
+ border-radius: 6px;
+ border: 1px solid rgb(160, 159, 159);
+ width: 20rem;
+ max-width: 100%;
+ outline: none;
+}
+                    
+.expense-btn {
+ text-align: right;
+}
+
+.expense-btn button{
+font: inherit;
+cursor: pointer;
+padding: 12px 25px;
+border:1px solid white;
+background-color: #60038b;
+color: white;
+border-radius: 10px;
+margin-right: 15px;
+}
+                                          
+.expense-btn button:hover {
+ background-color: #520776;
+ border:1px solid white;
+}

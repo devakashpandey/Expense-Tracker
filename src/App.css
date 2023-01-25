@@ -1,0 +1,12 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
