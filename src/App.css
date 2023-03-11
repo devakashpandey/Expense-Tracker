@@ -1,12 +1,28 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-h1{
+h1 {
   color: white;
   letter-spacing: 2px;
   font-size: 40px;
+  margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
+}
+
+.custom-shape-divider-top-1678560075 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
